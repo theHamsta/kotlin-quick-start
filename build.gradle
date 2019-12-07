@@ -8,8 +8,8 @@ version = '0.1.1'
 mainClassName = 'MainKt'
 description = 'My Application'
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
 
 repositories {
 	mavenCentral()
@@ -17,5 +17,6 @@ repositories {
 
 dependencies {
 	implementation 'org.jetbrains.kotlin:kotlin-stdlib'
+	implementation 'net.imagej:ij:1.52q'
 	testImplementation 'junit:junit:4.12'
 }
